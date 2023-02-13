@@ -68,6 +68,9 @@ module.exports = {
 							marginTop: 0,
 							marginBottom: 0,
 						},
+						fontFamily: {
+							founders: ['Founders']
+						}
 					}
 				}
 			})
