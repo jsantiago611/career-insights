@@ -5,11 +5,10 @@
 
 
 @font-face {
-    font-family: "Founder";
+    font-family: 'Founder';
     font-style: normal;
     /* font-weight: 300; */
-    src: local(''),
-	/* Super Modern Browsers */ url('/fonts/founders-grotesk-light.woff') format('woff'),
+    src:  url('../fonts/founders-grotesk-light.woff') format('woff'),
 }
 
 
