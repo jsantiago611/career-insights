@@ -1,4 +1,3 @@
-@layer base {
     @font-face {
         font-family: 'Founders';
         font-style: normal;
@@ -6,4 +5,4 @@
         src: local(''),
             /* Super Modern Browsers */ url('..static/fonts/founders-grotesk-light.woff') format('woff'),
     }
-}
+
