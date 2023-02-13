@@ -17,7 +17,8 @@ module.exports = {
 							borderLeft: '3px solid red',
 							fontSize: 'inherit',
 							fontStyle: 'inherit',
-							fontWeight: 'medium'
+							fontWeight: 'medium',
+							fontFamily: 'Founders'
 						},
 						'blockquote p:first-of-type::before': {
 							content: ''
