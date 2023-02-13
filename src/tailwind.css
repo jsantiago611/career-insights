@@ -3,12 +3,13 @@
 @tailwind components;
 @tailwind utilities;
 
-
-@font-face {
-    font-family: 'Founder';
-    font-style: normal;
-    /* font-weight: 300; */
-    src:  url('../fonts/founders-grotesk-light.woff') format('woff'),
+@layer base {
+	@font-face {
+	    font-family: 'Founder';
+	    font-style: normal;
+	    /* font-weight: 300; */
+	    src:  url('/fonts/founders-grotesk-light.woff') format('woff');
+	}
 }
 
 
