@@ -9,7 +9,7 @@
 	    font-style: normal;
 	    /* font-weight: 300; */
 	    src: local(''),
-		/* Super Modern Browsers */ url('../fonts/founders-grotesk-light.woff') format('woff'),
+		/* Super Modern Browsers */ url('..static/fonts/founders-grotesk-light.woff') format('woff'),
 	}
 }
 
