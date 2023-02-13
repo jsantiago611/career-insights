@@ -1,7 +1,9 @@
-@font-face {
-    font-family: 'Founders';
-    font-style: normal;
-    font-weight: 300;
-    src: local(''),
-        /* Super Modern Browsers */ url('..static/fonts/founders-grotesk-light.woff') format('woff'),
+@layer base {
+    @font-face {
+        font-family: 'Founders';
+        font-style: normal;
+        font-weight: 300;
+        src: local(''),
+            /* Super Modern Browsers */ url('..static/fonts/founders-grotesk-light.woff') format('woff'),
+    }
 }
