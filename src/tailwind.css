@@ -8,11 +8,11 @@
     font-style: normal;
     font-weight: 300;
     src: local(''),
-        /* Super Modern Browsers */ url('../static/fonts/founders-grotesk-light.woff') format('woff'),
+        /* Super Modern Browsers */ url('atomicgospel/static/fonts/founders-grotesk-light.woff') format('woff'),
 }
 
 :root {
-	--font-body: Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+	--font-body: 'Founders', Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
 		Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	--font-mono: 'Fira Mono', monospace;
 	font-family: var(--font-body);
