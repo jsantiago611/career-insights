@@ -71,7 +71,7 @@
 
 <TableOfContents {tocStore} />
 
-<article use:toc={{ store: tocStore, anchor: false, observe: true, selector: ':where(h1, h2, h3)' }} class="items-start justify-center w-full mx-auto mt-16 mb-32 prose-lg swyxcontent dark:prose-invert max-w-none">
+<article use:toc={{ store: tocStore, anchor: false, observe: true, selector: ':where(h1, h2, h3)' }} class="items-start justify-center w-full mx-auto mt-16 mb-32 prose prose-lg swyxcontent dark:prose-invert max-w-none">
 	<h1 class="md:text-center mb-8 text-4xl font-bold tracking-tight text-black dark:text-white md:text-5xl ">
 		{json.title}
 	</h1>
