@@ -6,6 +6,36 @@
 @layer base {
 
 	@font-face {
+		font-family: 'Supreme';
+		src: url('/fonts/SupremeLLWeb-Regular.woff') format('woff');
+		font-style: normal;
+		font-weight: 400;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+
+	@font-face {
+		font-family: 'Supreme';
+		src: url('/fonts/SupremeLLWeb-Medium.woff') format('woff');
+		font-style: normal;
+		font-weight: 500;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+
+	@font-face {
+		font-family: 'Supreme';
+		src: url('/fonts/SupremeLLWeb-Black.woff') format('woff');
+		font-style: normal;
+		font-weight: 700;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+	
+	@font-face {
 		font-family: 'Graphik';
 		src: url('/fonts/Graphik-Regular-Web.woff') format('woff');
 		font-style: normal;
