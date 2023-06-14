@@ -366,7 +366,6 @@ h4 a,
 h5 a,
 h6 a {
 	/* margin-left: 1rem; */
-	font-family: 'Display';
 	text-decoration: none !important;
 	@apply text-orange-700 dark:text-orange-400;
 }
