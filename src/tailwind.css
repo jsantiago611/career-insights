@@ -5,7 +5,6 @@
 
 @layer base {
 
-
 	@font-face {
 		font-family: 'Respira';
 		src: url('/fonts/Respira-Black.woff') format('woff');
@@ -17,7 +16,7 @@
 
 	@font-face {
 		font-family: 'Serif';
-		src: url('/fonts/serif.woff') format('woff');
+		src: url('/fonts/SuisseWorks-Regular-WebXL.woff2') format('woff2');
 		font-style: normal;
 		font-weight: 400;
 		font-stretch: normal;
@@ -27,7 +26,37 @@
 
 	@font-face {
 		font-family: 'Serif';
-		src: url('/fonts/sans.woff') format('woff');
+		src: url('/fonts/SuisseIntl-SemiBold-WebXL.woff2') format('woff2');
+		font-style: normal;
+		font-weight: 700;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+
+	@font-face {
+		font-family: 'Serif';
+		src: url('/fonts/SuisseWorks-RegularItalic-WebXL.woff2') format('woff2');
+		font-style: italic;
+		font-weight: 400;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+
+	@font-face {
+		font-family: 'Sans';
+		src: url('/fonts/SuisseIntl-Regular-WebXL.woff2') format('woff2');
+		font-style: normal;
+		font-weight: 400;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+
+	@font-face {
+		font-family: 'Sans';
+		src: url('/fonts/SuisseIntl-SemiBold-WebXL.woff2') format('woff2');
 		font-style: normal;
 		font-weight: 700;
 		font-stretch: normal;
