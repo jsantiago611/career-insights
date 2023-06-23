@@ -66,7 +66,7 @@
 	</div>
 
 
-	<!--<section class="w-full mb-16">
+	<section class="w-full mb-16">
 		<h3 class="mb-6 text-2xl font-bold tracking-tight text-black dark:text-white md:text-4xl">
 			Featured Posts
 		</h3>
@@ -79,7 +79,7 @@
 			/>
 			<FeatureCard title="HTML Ipsum demo" href="/moo" stringData="Jan 2022" />
 		</div>
-	</section>-->
+	</section>
 
 	<LatestPosts {items} />
 
