@@ -1,6 +1,6 @@
 export const SITE_URL = 'gospelgardenv2.netlify.app';
 export const APPROVED_POSTERS_GH_USERNAME = ['jsantiago611'];
-export const GH_USER_REPO = 'jsantiago611/atomicgospel'; // used for pulling github issues and offering comments
+export const GH_USER_REPO = 'jsantiago611/career-insights'; // used for pulling github issues and offering comments
 export const SITE_TITLE = 'Gospel Garden';
 export const SITE_DESCRIPTION = "A Digital Garden about Christianity and the Gospel";
 export const DEFAULT_OG_IMAGE =
