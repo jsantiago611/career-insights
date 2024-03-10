@@ -1,4 +1,4 @@
-export const SITE_URL = 'gospelgardenv2.netlify.app';
+export const SITE_URL = 'seriousmanagersonly.netlify.app';
 export const APPROVED_POSTERS_GH_USERNAME = ['jsantiago611'];
 export const GH_USER_REPO = 'jsantiago611/career-insights'; // used for pulling github issues and offering comments
 export const SITE_TITLE = 'Gospel Garden';
