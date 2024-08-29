@@ -25,7 +25,7 @@
 				<FeatureCard title="HTML Ipsum demo" href="/moo" stringData="Jan 2022" />
 			</div>
 			<a
-				class="mt-8 flex h-6 rounded-lg leading-7 text-gray-600 transition-all dark:text-gray-400 dark:hover:text-gray-200"
+				class="mt-8 flex h-6 rounded-sm leading-7 text-gray-600 transition-all dark:text-gray-400 dark:hover:text-gray-200"
 				href="/blog"
 				>See latest posts<svg
 					xmlns="http://www.w3.org/2000/svg"
