@@ -72,7 +72,7 @@
 <TableOfContents {tocStore} />
 
 <article use:toc={{ store: tocStore, anchor: false, observe: true, selector: ':where(h1, h2, h3)' }} class="items-start justify-center w-full mx-auto mt-16 mb-32 prose swyxcontent dark:prose-invert max-w-none">
-	<h1 class="md:text-left mb-8 text-7xl font-bold tracking-tight text-black dark:text-white md:text-6xl ">
+	<h1 class="md:text-left mb-8 text-6xl font-bold tracking-tight text-black dark:text-white md:text-7xl ">
 		{json.title}
 	</h1>
 	<div
