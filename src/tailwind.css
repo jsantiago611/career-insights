@@ -6,6 +6,53 @@
 @layer base {
 
 	@font-face {
+		font-family: 'FieldNotes';
+		src: url('/fonts/futura w01 medium.woff') format('woff');
+		font-style: normal;
+		font-weight: 500;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+	@font-face {
+		font-family: 'FieldNotes';
+		src: url('/fonts/futura w01 bold.woff2') format('woff2');
+		font-style: normal;
+		font-weight: 700;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+	@font-face {
+		font-family: 'FieldNotes';
+		src: url('/fonts/futura w01 heavy.woff2') format('woff2');
+		font-style: normal;
+		font-weight: 900;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+
+	@font-face {
+		font-family: 'FieldNotes';
+		src: url('/fonts/newcenturyschoolw01-rg.woff2') format('woff2');
+		font-style: normal;
+		font-weight: 400;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+	@font-face {
+		font-family: 'FieldNotes';
+		src: url('/fonts/newcenturyschoolw01-it.woff2') format('woff2');
+		font-style: italic;
+		font-weight: 400;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+	
+	@font-face {
 		font-family: 'Respira';
 		src: url('/fonts/Respira-Black.woff') format('woff');
 		font-style: normal;
@@ -331,9 +378,9 @@
 
 
 :root {
-	--font-body: 'Soehne', Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+	--font-body: 'FieldNotes', Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
 		Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-	--font-mono: 'Founders', monospace;
+	--font-mono: 'FieldNotes', monospace;
 	font-family: var(--font-body);
 	--size-step--1: clamp(0.83rem, calc(0.82rem + 0.08vw), 0.88rem);
     --size-step-0: clamp(1rem,0.92rem + 0.39vw,1rem);
