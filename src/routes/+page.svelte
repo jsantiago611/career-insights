@@ -41,16 +41,12 @@
 >
 	<div class="flex flex-col-reverse items-start sm:flex-row">
 		<div class="flex flex-col pr-8">
-			<h1 class="mb-3 text-3xl font-bold text-black dark:text-white md:text-5xl uppercase tracking-wider">
+			<h1 class="mb-3 text-3xl font-normal text-black dark:text-white md:text-5xl">
 				{SITE_TITLE}
 			</h1>
 			<h2 class="mb-4 text-gray-700 dark:text-gray-200">
-				An opinionated blog starter for <span class="font-semibold"
-					>SvelteKit + Tailwind + Netlify/Vercel.</span
-				> Updated for
-				<a href="https://github.com/sveltejs/kit/"
-					>SvelteKit 1.0</a
-				>!
+				Ideas on business, software testing, and management.
+				
 			</h2>
 		</div>
 		<!-- <div
