@@ -141,8 +141,8 @@
 		opacity: 0;
 		left: 0;
 		transition: opacity 300ms ease, transform 300ms ease;
-		font-family: 'Display';
-    		font-size: var(--size-step-6);
+		font-family: 'Soehne';
+    		font-size: var(--size-step-5);
     		line-height: .8;
 	}
 
